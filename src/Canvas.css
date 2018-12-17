@@ -1,0 +1,12 @@
+.canvas-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    background: pink;
+    padding: 12px;
+    border-radius: 12px;
+}

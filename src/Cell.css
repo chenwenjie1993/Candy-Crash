@@ -1,0 +1,39 @@
+.item {
+    width: calc(100% / 6 - 2px);
+    border: solid 1px white;
+}
+
+.item:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.FB {
+    background: lightgoldenrodyellow url('./images/2.png');
+    background-size: cover;
+}
+
+.Shopping {
+    background: lightcoral url('./images/4.png');
+    background-size: cover;
+}
+
+.Hotel {
+    background: url('./images/hotel.png');
+    background-size: cover;
+}
+
+.Hongbao {
+    background: url('./images/1.jpg');
+    background-size: cover;
+}
+
+.Pig {
+    background: url('./images/3.jpg');
+    background-size: cover;
+}
+
+.cancelable {
+    background: white;
+}

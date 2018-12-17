@@ -1,0 +1,37 @@
+html, body {
+    position: fixed;
+    width: 100%;
+}
+
+.landscape-cover {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black url("./images/rotate-device.png") center no-repeat;
+    background-size: 25%;
+    display: none;
+}
+
+@media screen and (orientation: landscape) {
+  .landscape-cover {
+      display: block;
+      z-index: 999;
+  }
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: darkred;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+
+}
