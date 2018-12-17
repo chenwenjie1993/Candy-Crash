@@ -1,0 +1,45 @@
+.intro-container {
+    position: absolute;
+    height: calc(100% - 24px);
+    width: calc(100% - 24px);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.intro-container p {
+    font-size: 14px;
+    text-align: center;
+    color: darkred;
+    margin: 5px 0;
+}
+
+.intro-container p a {
+    font-size: 14px;
+    text-align: center;
+    color: darkred;
+}
+
+.intro {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.start-btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+}
+
+.start-btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
