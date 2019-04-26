@@ -94,9 +94,14 @@ function Prize ({ open, onClose, toggleShare, prize }) {
             </div>
           </div>
           {
-            prizeType !== 'D' && prizeType !== 'A1' &&
+            prizeType !== 'D' && prizeType !== 'A1' && prizeType !== 'B1' &&
             <div className='prize-btn'
                  onClick={() => onCollect(prize)}>立刻领取</div>
+          }
+          {
+            prizeType === 'B1' &&
+            <div className='prize-btn'
+                 onClick={() => onCollect(prize)}>查看更多</div>
           }
           {
             (prizeType === 'A1' || prizeType === 'D') &&

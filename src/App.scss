@@ -113,6 +113,13 @@ html, body {
   background: $color-red;
 }
 
+@media screen and (min-width: 414px) {
+  .content-container {
+    width: 280px;
+    align-self: center;
+  }
+}
+
 @media screen and (min-width: 524px) {
   .content-container {
     width: 420px;

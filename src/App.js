@@ -161,12 +161,13 @@ class App extends Component {
           <img src={logo} alt="" className="logo"/>
         </div>
         <div className="header">
-          <div className="tc-btn" onClick={() => {
-            if (state !== GAME_STATE.PLAYING) this.showTc()
-          }}>
-            <img src={flower} className="tc-img" alt=""/>
-            游戏说明
-          </div>
+          {
+            state !== GAME_STATE.PLAYING &&
+            <div className="tc-btn" onClick={this.showTc}>
+              <img src={flower} className="tc-img" alt=""/>
+              游戏说明
+            </div>
+          }
           {
             state === GAME_STATE.PLAYING &&
             <Timer key={currentRun} endGame={this.endGame}

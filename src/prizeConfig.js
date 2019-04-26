@@ -21,8 +21,8 @@ export const prizeConfig = {
       "name": "购物卡",
       "title": "有福齐享同贺春！",
       "title2": "",
-      "detail": "看出来了，你是购物型人格。\n在新的一年买遍滨海湾金沙\n超过170家名店。\nSRL\n新春期间在滨海湾金沙\n消费享受高达10%返利！*",
-      "code": "http://mp.weixin.qq.com/bizmall/cardshelf?t=cardticket/shelf_list&biz=MzAxMzA4MjUxMw==&shelf_id=3&showwxpaytitle=1#wechat_redirect",
+      "detail": "看出来了，你是购物型人格。\n在新的一年买遍滨海湾金沙\n超过170家名店。\nSRL\n新春期间在滨海湾金沙\n消费享受高达6%返利！*",
+      "code": "https://zh.marinabaysands.com/lunar-new-year.html?utm_medium=social&utm_source=wechat&utm_campaign=wechatcnygamepage",
       "group": "Shopping",
       "type": "B1"
    },
@@ -30,7 +30,7 @@ export const prizeConfig = {
       "name": "代金券",
       "title": "有福齐享同贺春",
       "title2": "恭喜获得购物代金券S$100新币！",
-      "detail": "看出来了，你是购物型人格。\n在新的一年买遍滨海湾金沙\n超过170家名店。\nSRL\n新春期间在滨海湾金沙\n消费享受高达10%返利！*",
+      "detail": "看出来了，你是购物型人格。\n在新的一年买遍滨海湾金沙\n超过170家名店。\nSRL\n新春期间在滨海湾金沙\n消费享受高达6%返利！*",
       "code": "pkf2Xs03KRUfHd1d1BlRSPyykeKs",
       "group": "Shopping",
       "type": "B2"
@@ -39,7 +39,7 @@ export const prizeConfig = {
       "name": "S$10奖励",
       "title": "有福齐享同贺春！",
       "title2": "恭喜获得S$10奖励！",
-      "detail": "看出来了，你是购物型人格。\n在新的一年买遍滨海湾金沙\n超过170家名店。\nSRL\n新春期间在滨海湾金沙\n消费享受高达10%返利！*",
+      "detail": "看出来了，你是购物型人格。\n在新的一年买遍滨海湾金沙\n超过170家名店。\nSRL\n新春期间在滨海湾金沙\n消费享受高达6%返利！*",
       "code": "pkf2Xs-KDqDFeXh1c282gPd39sMk",
       "group": "Shopping",
       "type": "B3"
@@ -49,7 +49,7 @@ export const prizeConfig = {
       "title": "有福齐享同贺春！",
       "title2": "恭喜获得酒店住宿优惠券200元人民币/晚",
       "detail": "看出来了，你是享受型人格。\n新的一年，游遍全球",
-      "code": "https://zh.marinabaysands.com/hotel/offers/holiday-celebrations.html?utm_medium=social&utm_source=wechat&utm_campaign=wechatcnygamepage",
+      "code": "https://zh.marinabaysands.com/hotel/offers/step-into-spring.html?utm_medium=social&utm_source=wechat&utm_campaign=wechatcnygamepage",
       "group": "Hotel",
       "type": "C1"
    },

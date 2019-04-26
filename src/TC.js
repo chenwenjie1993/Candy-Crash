@@ -17,10 +17,11 @@ function TC ({ startGame, myPrizes }) {
           <p>分享可获得多一次机会</p>
           <p>更多滨海湾金沙新春活动请
             <a
-              href='http://www.zh.marinabaysands.com/lunarnewyear.html?utm_medium=social&utm_source=wechat&utm_campaign=wechatcnygamepage'>
+              href='https://zh.marinabaysands.com/lunar-new-year.html?utm_medium=social&utm_source=wechat&utm_campaign=wechatcnygamepage'>
               点击
             </a>
           </p>
+          <p className='fomo'>Powered by FOMO</p>
           <br/>
           <br/>
         </div>

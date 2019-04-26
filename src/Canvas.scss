@@ -1,22 +1,29 @@
 @import "colors";
 
 .canvas-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    background: $color-pink;
-    padding: 12px;
-    border-radius: 12px;
-    z-index: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: $color-pink;
+  padding: 12px;
+  border-radius: 12px;
+  z-index: 1;
 }
 
-@media screen and (min-width: 524px){
-    .canvas-container {
-        width: 420px;
-        align-self: center;
-    }
+@media screen and (min-width: 414px) {
+  .canvas-container {
+    width: 280px;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 524px) {
+  .canvas-container {
+    width: 420px;
+    align-self: center;
+  }
 }
